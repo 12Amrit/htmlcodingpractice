@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        form{
+            border:1px solid wheat;
+            width: 400px;
+            padding: 20px;
+            border-radius: 4px;
+            box-shadow: 2px 2px 8px #ccc;
+            margin: 0 auto;
+        }
+        label{
+            display: block;
+            font-size: 70%;
+            color: #444;
+        }
+        input{
+            width: 100%;
+            padding: 4px;
+            font-size: 125%;
+        }
+        div + div {
+margin-top: 20px;
+
+        }
+        select{
+            padding: 4px;
+            font-size: 100%;
+        }
+        button{
+            padding: 16px 16px;
+            background-color:lightblue;
+            color: white;
+            font-size: 125%;
+            border: none;
+            border-radius: 4px;
+            width: 100%;
+        }
+        .is-robot{
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding:  30px 10px;
+            background: #eee;
+        }
+        .is-robot input{
+            height: 20px;
+            width: 20px;
+
+        }
+        .is-robot label{
+            display:inline;
+            font-size: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div id="brand">
+            <h1>Edyst Platform</h1>
+        </div>
+        <div id="nav">
+            <a href="#">Home</a>
+            <a href="form.html">Project</a>
+            <a href="PHOTO.jpeg">Profile</a>
+            <a href="#">Resume</a>
+            <a href="#">Contact</a>
+        </div>
+
+   </div>
+    <h1>Registraion forms</h1>
+    <form action="" method="">
+        <div>
+            <label for="first name:">First name:</label>
+            <input id="first name" type="text">
+        </div>
+        <div>
+            <label for="last name:">Last name:</label>
+            <input id="last name" type="text">
+        </div>
+        <div>
+            <label for="email">Email Address:</label>
+            <input  type="email">
+        </div>
+        <div>
+            <label for="salary">Salary:</label>
+            <input  type="number">
+        </div>
+        <div>
+            <label for="company">Company name:</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="role">Role*</label>
+            
+            <select name="" id="role">
+                <option value="developer">Developer:</option>
+                <option value="sales">Sales:</option>
+                <option value="admin">Admin:</option>
+                <option value="testing">Testing:</option>
+                <option value="maintance">Maintance:</option>
+            </select>
+        </div>
+        <div>
+            <label for="country">Country</label>
+            
+            <select name="" id="country">
+                <option value="india">India</option>
+                <option value="nepal">Nepal</option>
+                <option value="usa" selected>U.S A</option>
+                <option value="uk">U.K</option>
+                <option value="jarmany">Jarmany</option>
+            </select>
+        </div>
+        <div>
+            <label for="lang">primary langauges</label>
+            
+            <select name="" id="lang">
+                <option value="c++">C++</option>
+                <option value="java">java</option>
+                <option value="javascript" selected>Javascript</option>
+                <option value="php">P.H.P</option>
+                <option value="sql">SQl</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" id="is-robot">
+            <label for="is-robot">I'm not robot</label>
+        </div>
+        <div><button>create a free account</button></div>
+    </form>
+    <div class="footer">
+        <div>
+            <span><a href=""><i class="fab fa-facebook"></i></a></span>
+            <span><a href=""><i class="fab fa-twitter"></i></a></span>
+            <span><a href=""><i class="fab fa-linkedin"></i></a></span>
+            <span><a href=""><i class="fab fa-instagram"></i></a></span>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, aut sequi accusamus alias recusandae minus cupiditate unde impedit magnam! Maxime, molestias! Repudiandae quos doloremque nesciunt cumque dolores dolorem animi alias.</p>
+        </div>
+        <div>
+            <h4>All CopyRights &copy; are Reserved by Kiara </h4>
+        </div>
+    </div>
+</body>
+</html>
